@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>43e6ff1a1b3819101363ff37dc4bcb7d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_flt_mgmt_vehicle">
+    <x_snc_flt_mgmt_vehicle action="INSERT_OR_UPDATE">
+        <assigned_to display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</assigned_to>
+        <license_plate>TX123456</license_plate>
+        <mileage>35000</mileage>
+        <model display_value="2019 Honda Odyssey">7366b31a1b3819101363ff37dc4bcba8</model>
+        <notes/>
+        <number>VHCL0001001</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:26:43</sys_created_on>
+        <sys_id>43e6ff1a1b3819101363ff37dc4bcb7d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:46:42</sys_updated_on>
+        <vehicle_name>2019 Honda Odyssey</vehicle_name>
+        <vin>dkjfhaksdjhlkajsdhfkljsd</vin>
+    </x_snc_flt_mgmt_vehicle>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:27:52</sys_created_on>
+        <sys_id>eb37b35a1b3819101363ff37dc4bcbd8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>2019 Honda Odyssey</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_eb37b35a1b3819101363ff37dc4bcbd8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:46:51</sys_updated_on>
+        <tablename>x_snc_flt_mgmt_vehicle</tablename>
+    </sys_metadata_link>
+</record_update>

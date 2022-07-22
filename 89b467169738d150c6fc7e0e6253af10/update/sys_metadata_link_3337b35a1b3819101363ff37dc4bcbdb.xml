@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>fef6b31a1b3819101363ff37dc4bcb9a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_flt_mgmt_vehicle">
+    <x_snc_flt_mgmt_vehicle action="INSERT_OR_UPDATE">
+        <assigned_to display_value="Abel Tuter">b017b52d1b1230541363ff37dc4bcb93</assigned_to>
+        <license_plate>TX987654</license_plate>
+        <mileage>30000</mileage>
+        <model display_value="2019 Ram 1500">77c5bb961b3819101363ff37dc4bcb72</model>
+        <notes/>
+        <number>VHCL0001002</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:27:23</sys_created_on>
+        <sys_id>fef6b31a1b3819101363ff37dc4bcb9a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:46:46</sys_updated_on>
+        <vehicle_name>2019 Ram 1500</vehicle_name>
+        <vin>klsajdhlkasjdhkljsadh</vin>
+    </x_snc_flt_mgmt_vehicle>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:27:52</sys_created_on>
+        <sys_id>3337b35a1b3819101363ff37dc4bcbdb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>2019 Ram 1500</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_3337b35a1b3819101363ff37dc4bcbdb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:46:51</sys_updated_on>
+        <tablename>x_snc_flt_mgmt_vehicle</tablename>
+    </sys_metadata_link>
+</record_update>
