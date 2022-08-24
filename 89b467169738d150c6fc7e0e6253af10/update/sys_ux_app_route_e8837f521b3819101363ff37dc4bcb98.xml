@@ -24,4 +24,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-07-22 16:11:33</sys_updated_on>
     </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8837f521b3819101363ff37dc4bcb98"/>
 </record_update>

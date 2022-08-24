@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_graphql">
     <sys_ux_data_broker_graphql action="INSERT_OR_UPDATE">
-        <api_name>x_snc_flt_mgmt.Get Vehicle Info</api_name>
+        <api_name>x_snc_flt_mgmt.Get Vehicle Info GQL</api_name>
         <description/>
         <mutates_server_data>false</mutates_server_data>
-        <name>Get Vehicle Info</name>
+        <name>Get Vehicle Info GQL</name>
         <output_schema/>
         <private>false</private>
         <props>[&#13;
@@ -24,6 +24,9 @@
                 number&#13;
                 vin&#13;
                 image&#13;
+                tireRotation&#13;
+                oilChange&#13;
+                licensePlate&#13;
                 model {&#13;
                     id&#13;
                     modelName&#13;
@@ -50,6 +53,10 @@
                         }&#13;
                     }&#13;
                 }&#13;
+                parts {&#13;
+                    serialNumber&#13;
+                    partName&#13;
+                }&#13;
             }&#13;
         }&#13;
     }&#13;
@@ -68,14 +75,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-22 17:25:43</sys_created_on>
         <sys_id>417d275887a15550bf924085dabb3553</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Get Vehicle Info</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Get Vehicle Info GQL</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ux_data_broker_graphql_417d275887a15550bf924085dabb3553</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-22 18:29:50</sys_updated_on>
+        <sys_updated_on>2022-08-24 14:09:59</sys_updated_on>
         <type>query</type>
         <use_record_domain>false</use_record_domain>
     </sys_ux_data_broker_graphql>

@@ -5,7 +5,7 @@
         <enforce_acl/>
         <name>Fleet</name>
         <namespace>fleet</namespace>
-        <paths>MaintReq:assignedTo,MaintReq:description,MaintReq:id,MaintReq:maintTasks,MaintReq:mileage,MaintReq:number,MaintReq:priority,MaintReq:shortDescription,MaintReq:state,MaintReq:type,MaintReq:vehicle,MaintTask:active,MaintTask:assignedTo,MaintTask:description,MaintTask:id,MaintTask:number,MaintTask:priority,MaintTask:shortDescription,MaintTask:state,Manufacturer:id,Manufacturer:name,Model:id,Model:manufacturer,Model:model,Model:modelName,Model:type,Model:year,Part:id,Part:partName,Part:partReference,Part:serialNumber,PartReference:id,Query:maintReq,Query:maintTask,Query:manufacturers,Query:models,Query:vehicle,Query:vehicles,User:active,User:city,User:email,User:id,User:manager,User:name,User:phone,User:state,Vehicle:assignedTo,Vehicle:id,Vehicle:image,Vehicle:licensePlate,Vehicle:maintReqs,Vehicle:mileage,Vehicle:model,Vehicle:notes,Vehicle:number,Vehicle:vin</paths>
+        <paths>MaintReq:assignedTo,MaintReq:description,MaintReq:id,MaintReq:maintTasks,MaintReq:mileage,MaintReq:number,MaintReq:priority,MaintReq:shortDescription,MaintReq:state,MaintReq:type,MaintReq:vehicle,MaintTask:active,MaintTask:assignedTo,MaintTask:description,MaintTask:id,MaintTask:number,MaintTask:priority,MaintTask:shortDescription,MaintTask:state,Manufacturer:id,Manufacturer:name,Model:id,Model:manufacturer,Model:model,Model:modelName,Model:type,Model:year,Part:id,Part:partName,Part:partReference,Part:serialNumber,PartReference:id,Query:maintReq,Query:maintTask,Query:manufacturers,Query:models,Query:vehicle,Query:vehicles,User:active,User:city,User:email,User:id,User:manager,User:name,User:phone,User:state,Vehicle:assignedTo,Vehicle:id,Vehicle:image,Vehicle:licensePlate,Vehicle:maintReqs,Vehicle:mileage,Vehicle:model,Vehicle:notes,Vehicle:number,Vehicle:oilChange,Vehicle:parts,Vehicle:tireRotation,Vehicle:vin</paths>
         <requires_acl_authorization>false</requires_acl_authorization>
         <requires_authentication>true</requires_authentication>
         <requires_snc_internal_role>true</requires_snc_internal_role>
@@ -91,7 +91,10 @@ type Vehicle {&#13;
 	image: String @source(value: "image.display_value")&#13;
 	notes: String @source(value: "notes.value")&#13;
 	vin: String @source(value: "vin.value")&#13;
+	tireRotation: String @source(value: "next_tire_rotation.display_value")&#13;
+	oilChange: String @source(value: "next_oil_change.display_value")&#13;
 	maintReqs: [MaintReq] @source(value: "sys_id.value")&#13;
+	parts: [Part] @source(value: "sys_id.value")&#13;
 }&#13;
 &#13;
 type User {&#13;
@@ -109,14 +112,14 @@ type User {&#13;
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2022-07-22 17:16:44</sys_created_on>
         <sys_id>1f02cc6e2ff051109622bcb62799b6f0</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Fleet</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_graphql_schema_1f02cc6e2ff051109622bcb62799b6f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-22 18:29:25</sys_updated_on>
+        <sys_updated_on>2022-08-24 03:11:50</sys_updated_on>
         <type_names/>
     </sys_graphql_schema>
 </record_update>
