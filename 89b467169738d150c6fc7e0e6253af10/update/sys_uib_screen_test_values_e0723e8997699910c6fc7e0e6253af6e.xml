@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
-        <macroponent_config>{ }</macroponent_config>
+        <macroponent_config>{
+  "vehicleId" : "fef6b31a1b3819101363ff37dc4bcb9a"
+}</macroponent_config>
         <screen display_value="Vehicle info start">a8723e8997699910c6fc7e0e6253af6a</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
