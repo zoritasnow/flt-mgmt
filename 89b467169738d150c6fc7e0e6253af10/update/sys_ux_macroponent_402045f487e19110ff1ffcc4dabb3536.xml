@@ -134,7 +134,7 @@
     },
     "hideLinks" : {
       "type" : "JSON_LITERAL",
-      "value" : true
+      "value" : false
     },
     "hideViewAll" : {
       "type" : "JSON_LITERAL",
@@ -278,6 +278,30 @@
     }
   },
   "eventMappings" : [ {
+    "eventMappingId" : "clhhiibbiiggltaabbjjwddbhheewiihhxheng",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "8d9f5e8d87e1d110ff1ffcc4dabb3546"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clhhiibbiiggluaabbjjxddbhheeeaawohhwgb",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  }, {
     "eventMappingId" : "clhhgglwrbbnaacccqddbhheewfjjkffjjxr",
     "isConfiguration" : false,
     "offRowStorageId" : null,
@@ -365,13 +389,13 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2022-08-23 18:04:01</sys_created_on>
         <sys_id>402045f487e19110ff1ffcc4dabb3536</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Vehicle History Tab</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ux_macroponent_402045f487e19110ff1ffcc4dabb3536</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2022-08-23 20:57:10</sys_updated_on>
+        <sys_updated_on>2022-08-24 19:56:37</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
