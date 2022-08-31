@@ -297,64 +297,60 @@
   },
   "overrides" : {
     "composition" : [ {
-      "elementId" : "stylized_text_3",
-      "elementLabel" : "Stylized text 3",
+      "elementId" : "viewport_egw",
+      "elementLabel" : "Tab set 1",
       "propertyValues" : {
-        "text" : {
-          "type" : "TRANSLATION_LITERAL",
+        "dynamicTabData" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "defaultRoute" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "viewportConfiguration" : {
+          "type" : "JSON_LITERAL",
           "value" : {
-            "code" : null,
-            "message" : "New Request: ",
-            "comment" : ""
+            "validation" : {
+              "name" : {
+                "required" : true
+              },
+              "order" : {
+                "required" : false
+              },
+              "icon" : {
+                "required" : false
+              }
+            },
+            "enableDataDrivenTabs" : true
           }
         },
-        "tag" : {
+        "selectedTabIndex" : {
           "type" : "JSON_LITERAL",
-          "value" : "h4"
+          "value" : null
         },
-        "css" : {
+        "maxWidth" : {
           "type" : "JSON_LITERAL",
-          "value" : "* { }"
+          "value" : null
+        },
+        "fixedWidth" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "hideLabel" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
         }
       },
       "eventMappings" : [ ],
       "slot" : null,
       "definition" : {
-        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : null
-      },
-      "isHero" : false,
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
-      "elementId" : "stylized_text_2",
-      "elementLabel" : "Stylized text 2",
-      "propertyValues" : {
-        "text" : {
-          "type" : "STATE_BINDING",
-          "binding" : {
-            "address" : [ "newRequestShortDescription" ]
-          }
-        },
-        "tag" : {
-          "type" : "JSON_LITERAL",
-          "value" : "p"
-        },
-        "css" : {
-          "type" : "JSON_LITERAL",
-          "value" : "* { }"
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : null,
-      "definition" : {
-        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
-        "type" : "MACROPONENT"
+        "id" : "b324da974cef96f2db1d484cfeda4e3e",
+        "type" : "MACROPONENT_VIEWPORT"
       },
       "overrides" : null,
       "isHidden" : {
@@ -369,10 +365,10 @@
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"stylized_text_3","styles":{}},{"element_id":"stylized_text_2","styles":{}}],
+        "items" : [{"element_id":"viewport_egw","styles":{}}],
         "root" : null,
         "rules" : null,
-        "styles" : {"flex-direction":"row"},
+        "styles" : {"flex-direction":"column"},
         "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
         "type" : "flex"
       },
@@ -380,19 +376,8 @@
     }
   },
   "isHidden" : {
-    "type" : "CLIENT_TRANSFORM",
-    "transform" : {
-      "operands" : {
-        "type" : "LIST_CONTAINER",
-        "container" : [ {
-          "type" : "STATE_BINDING",
-          "binding" : {
-            "address" : [ "newRequestShortDescription" ]
-          }
-        } ]
-      },
-      "operator" : "EMPTY"
-    }
+    "type" : "JSON_LITERAL",
+    "value" : false
   },
   "isHero" : false,
   "isNonDestructive" : false,
@@ -434,6 +419,101 @@
   "isHero" : false,
   "isNonDestructive" : false,
   "styles" : { }
+}, {
+  "elementId" : "container_3",
+  "elementLabel" : "Container 3",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "stylized_text_5",
+      "elementLabel" : "Stylized text 5",
+      "propertyValues" : {
+        "text" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "As a bonus here are some viewport tabs",
+            "comment" : ""
+          }
+        },
+        "tag" : {
+          "type" : "JSON_LITERAL",
+          "value" : "h3"
+        },
+        "css" : {
+          "type" : "JSON_LITERAL",
+          "value" : "* { }"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"stylized_text_5","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
 } ]</composition>
         <da_relay_models/>
         <data>[ {
@@ -587,7 +667,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"stylized_text_1","styles":{}},{"element_id":"stylized_text_4","styles":{}},{"element_id":"container_1","styles":{}},{"element_id":"container_2","styles":{}}],
+    "items" : [{"element_id":"stylized_text_1","styles":{}},{"element_id":"stylized_text_4","styles":{}},{"element_id":"container_1","styles":{}},{"element_id":"container_3","styles":{}},{"element_id":"container_2","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column","padding":"var(--now-static-space--lg)"},
@@ -612,10 +692,10 @@
   "disabled" : false
 } ]</props>
         <required_translations>[ {
-  "message" : "Enter a label",
+  "message" : "As a bonus here are some viewport tabs",
   "comment" : ""
 }, {
-  "message" : "New Request: ",
+  "message" : "Enter a label",
   "comment" : ""
 }, {
   "message" : "Vehicle Info",
@@ -641,13 +721,13 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2022-08-26 15:32:54</sys_created_on>
         <sys_id>734af3e187ed1510ff1ffcc4dabb35b5</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Viewports</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ux_macroponent_734af3e187ed1510ff1ffcc4dabb35b5</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2022-08-29 16:48:12</sys_updated_on>
+        <sys_updated_on>2022-08-31 23:25:57</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
